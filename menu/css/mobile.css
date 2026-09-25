@@ -1,0 +1,62 @@
+/* =========================================================
+   Lavanda — ajustes responsivos
+   ========================================================= */
+
+@media (max-width: 980px) {
+  #logo img { height: 60px; }
+  .brand-name { font-size: 1.6rem; }
+
+  .produtos-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .hero { min-height: 70vh; }
+  .hero-placa {
+    margin: 0 6vw;
+    padding: 40px 36px;
+    max-width: 500px;
+  }
+
+  .sobre-inner { grid-template-columns: 1fr; gap: 36px; }
+
+  .insta-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .footer-inner { grid-template-columns: 1fr 1fr; gap: 36px; }
+}
+
+@media (max-width: 720px) {
+  #nav-esq { padding: 12px 20px; gap: 12px; }
+  #logo img { height: 52px; }
+  .brand-name { font-size: 1.4rem; }
+
+  .nav-actions { display: none; }
+
+  .menu-suspenso {
+    right: 16px;
+    min-width: 200px;
+  }
+
+  .hero { min-height: 68vh; }
+  .hero-placa {
+    margin: 0 5vw;
+    padding: 32px 26px;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+  .hero-placa h1 { font-size: 2.4rem; }
+  .hero-placa p { font-size: 1rem; }
+
+  .produtos-grid { grid-template-columns: 1fr; }
+  .produtos { padding: 56px 20px 72px; }
+
+  .imprensa { padding: 28px 20px; }
+  .imprensa-logos { gap: 22px; }
+  .imprensa-logos span { font-size: 1.05rem; }
+
+  .sobre { padding: 60px 20px; }
+
+  .insta { padding: 60px 20px 30px; }
+  .insta-grid { gap: 10px; }
+
+  footer { padding: 52px 20px 24px; }
+  .footer-inner { grid-template-columns: 1fr; gap: 32px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
+}
